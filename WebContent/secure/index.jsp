@@ -1,5 +1,5 @@
 Patrik
 <br>
-Secured page!
+Secured page, indeed!
 <br>
 <%= new java.util.Date() %>
