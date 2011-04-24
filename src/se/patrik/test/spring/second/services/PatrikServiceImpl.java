@@ -16,6 +16,6 @@ public class PatrikServiceImpl implements PatrikService
 	@Override
 	public String echo(String s)
 	{
-		return "Echo: " + s;
+		return "Echooooo: " + s;
 	}
 }
