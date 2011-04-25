@@ -18,7 +18,7 @@
              Allow all other requests. In a real application you should
              adopt a whitelisting approach where access is not allowed by default
           -->
-        <intercept-url pattern="/**" access="permitAll" />
+        <intercept-url pattern="/**" access="isAuthenticated()" />
         <form-login />
         <remember-me />
 <!--
