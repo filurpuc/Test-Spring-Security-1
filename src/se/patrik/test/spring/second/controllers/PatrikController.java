@@ -36,9 +36,12 @@ public class PatrikController
 		logger.debug("Hej svejs!!");
 
 		Date now = new Date();
-
+		String username = service.getUsername();
+		
 		model.put("datum", now.toString());
 		model.put("echo", "just det");
+		model.put("username", username);
+		model.put("authorities", service.getAuthorities());
 		return "patrik";
 	}
 }

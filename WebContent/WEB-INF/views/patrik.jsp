@@ -5,3 +5,7 @@ Dagens datum: <c:out value="${datum}" />
 ...
 <br>
 Echo: <c:out value="${echo}" />
+<br>
+Username: <c:out value="${username}" />
+<br>
+Authorities: <c:out value="${authorities}" />
